@@ -1,6 +1,13 @@
 {
-  "name": "vite-react-tailwind-starter",
+  "name": "vite-react-tailwind-css",
   "version": "0.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    ".next/cache"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
